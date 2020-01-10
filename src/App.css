@@ -1,16 +1,13 @@
+body {
+  background-color: oldlace;
+  /* background-image: url(./assets/images/resonate.JPG); */
+  background-size: 100%;
+
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  padding: 10px;
 }
 
 .App-header {
@@ -21,18 +18,190 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+/* Navbar-Header-Footer */
+#navbar {
+  width: 100%;
+  align-content: center;
+  justify-content: space-around;
+  background-color: white;
+  list-style: none;
+  display: flex;
+  transform: scale(1);
+  transition: transform 0.7s ease;
+}
+
+#navbar li:hover {
+  transform: scale(1.5);
+  color: red;
+}
+
+
+
+/* Card structure */
+.card {
+  width: 38rem;
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+
+}
+
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+
+.card-body {
+  padding: 3rem !important;
+}
+
+#maincard {
+  width: 100%;
+  height: 650px;
+  border: 50px 50px 50px 50px;
+  margin: 0 auto;
+}
+
+#maincard:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+}
+
+#featured{
+  width: 50%;
+border: 50px 50px 50px 50px;
+margin: 0 auto;
+}
+
+#featured:hover {
+box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+
+}
+.card-text {
+  font-size: 0.9rem;
+  padding: 0.2rem 1.2rem;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+.card-img-top {
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+.card-img-top:hover {
+  transform: scale(1.1);
+}
+
+.container-fluid .row {
+  padding-top: 6rem;
+  margin: 0 auto;
+}
+
+/* additional  */
+
+#social {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  min-height: auto;
+  align-items: center;
+  border: auto;
+}
+
+.social {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  min-height: auto;
+  align-items: center;
+  border: auto;
+  list-style: none;
+  padding: 1px;
+margin-bottom: -400px;
+}
+
+.social li {
+  float:left;
+}
+#facebook {
+  width: 50px;
+  align-content: center;
+  justify-content: space-around;
+  list-style: none;
+  display: flex;
+  min-height: auto;
+  align-items: center;
+  padding: 10px;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+#facebook:hover {
+  transform: scale(1.1);
+}
+
+#twitter {
+  width: 50px;
+  align-content: center;
+  justify-content: space-around;
+  list-style: none;
+  display: flex;
+  min-height: auto;
+  align-items: center;
+  padding: 10px;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+#twitter:hover {
+  transform: scale(1.1);
+}
+
+#instagram {
+  width: 50px;
+  align-content: center;
+  justify-content: space-around;
+
+  list-style: none;
+  display: flex;
+  min-height: auto;
+  align-items: center;
+  padding: 10px;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+#instagram:hover {
+  transform: scale(1.1);
+}
+
+#patreon {
+  width: 50px;
+  align-content: center;
+  justify-content: space-around;
+  list-style: none;
+  display: flex;
+  min-height: auto;
+  align-items: center;
+  padding: 10px;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+#patreon:hover {
+  transform: scale(1.1);
 }
 
 @keyframes App-logo-spin {
   from {
-    transform: rotate(0deg);
+      transform: rotate(0deg);
   }
+
   to {
-    transform: rotate(360deg);
+      transform: rotate(360deg);
   }
 }
