@@ -39,9 +39,7 @@ class Landing extends React.Component{
 uiConfig={this.uiConfig}
 firebaseAuth={firebase.auth()} />
 )}
-<div>
-    <Cards/>
-</div>
+
         </div>
         )
     }
