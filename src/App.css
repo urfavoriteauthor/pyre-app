@@ -1,7 +1,9 @@
 body {
-  background-color: oldlace;
-  /* background-image: url(./assets/images/resonate.JPG); */
-  background-size: 100%;
+  background-color: black;
+  background-image: url(./assets/images/Pyre.GIF);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
 
 }
 
@@ -100,6 +102,10 @@ box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
 }
 
 /* additional  */
+
+#landing{
+  
+}
 
 #social {
   width: 100%;

@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
-import Firebase from 'firebase'
-import StyledFirebaseAuth from 'react-firebaseui/StyledFirebaseAuth'
-import Cards from './components/cards'
+
+import Landing from './pages/landing'
 
 function App() {
   return (
     <div className="App">
-     <Cards/>
+     <Landing/>
       
     </div>
   );
